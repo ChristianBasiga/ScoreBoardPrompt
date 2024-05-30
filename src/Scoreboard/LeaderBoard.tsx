@@ -1,6 +1,3 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { formatDate } from "date-fns";
 import { useLeaderBoard } from "../hooks/useLeaderBoard";
 import { GameModeEnum, UserScore } from "../types";
 import { ScoreBoard } from "./Scoreboard";

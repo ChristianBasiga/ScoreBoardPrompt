@@ -1,12 +1,11 @@
 import { startOfWeek, endOfWeek } from "date-fns";
-import { useCallback, useEffect, useState } from "react";
+import { useState } from "react";
 import { GameModeEnum, ScoreboardEnum, ScoreboardEnumToLabel } from "../types";
 import styled from "styled-components";
 import { LeaderBoard } from "./LeaderBoard";
 import ReactDatePicker from "react-datepicker";
 import { ScoreBoard } from "./Scoreboard";
 import { useUserScore } from "../hooks/useUserScore";
-import { useLeaderBoard } from "../hooks/useLeaderBoard";
 
 const FlexBox = styled.div<{
   align?: string;

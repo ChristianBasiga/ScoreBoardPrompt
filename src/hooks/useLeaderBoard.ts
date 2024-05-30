@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { axiosInstance } from "../api";
 import { GameModeEnum, UserScore } from "../types";
 import { useUserScore } from "./useUserScore";
 import { groupBy } from "lodash";
