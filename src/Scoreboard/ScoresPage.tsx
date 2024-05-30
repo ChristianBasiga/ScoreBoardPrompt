@@ -37,7 +37,6 @@ const Container = styled.div`
   border-radius: 10px;
   background-color: #c0a99d;
   padding: 32px;
-  height: 80vh;
   width: 100%;
   justify-content: center;
   display: flex;
