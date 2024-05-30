@@ -35,7 +35,8 @@ const StyledLabel = styled.label`
 
 const Container = styled.div`
   border-radius: 10px;
-  background-color: #c0a99d;
+  background-color: #e9dfd9;
+  color: black;
   padding: 32px;
   width: 100%;
   justify-content: center;

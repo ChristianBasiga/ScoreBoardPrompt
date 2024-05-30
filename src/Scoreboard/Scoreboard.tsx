@@ -7,7 +7,7 @@ type PropsT = {
 };
 
 const TableStyle = styled.table`
-  background-color: #e9dfd9;
+  background-color: #c0a99d;
 `;
 
 const TableHeaderRow = styled.thead`
