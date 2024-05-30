@@ -19,6 +19,7 @@ const TableHeaders = styled.th`
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
+  color: white;
 `;
 
 const TableDataCols = styled.td`
